@@ -843,7 +843,7 @@ table tr:nth-child(even) {
 }
 .sf-menu > li.active > a {
   color: #fff;
-  background:#228b22 /*#5ab7de*/;
+  background:#cf743f/*#228b22 #5ab7de*/;
   /*border-right: 1px solid #6cb150/*#4bb0db*/;
 }
 
@@ -1140,8 +1140,8 @@ table tr:nth-child(even) {
 /*==================  Stuck menu  ======================*/
 /*color del  menu*/
 .stuck_container {
-  margin-top: 22px;
-  background: #0087bf/*#434547*/;
+  /*margin-top: 22px;*/
+  background: #7f7f7f/*#0087bf #434547*/;
 }
 
 .isStuck {
@@ -1195,8 +1195,10 @@ header {
   padding-top: 24px;
   background:black/*#fff*/;
 }
-header .brand {
-  float: left;
+header .brand { 
+  /*float: left;*/
+  position: relative;
+  left: 10%;
 }
 header a[href^="callto:"],
 header .container > p {
