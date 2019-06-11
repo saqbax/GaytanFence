@@ -863,7 +863,7 @@ table tr:nth-child(even) {
 /*colores de los cuadritos de ideas creativas*/
 .sf-menu > li.sfHover > a, .sf-menu > li > a:hover {
   color: #fff;
-  background:#228b22 /*#5ab7de*/;
+  background:#cf743f /*#5ab7de*/;
   /*border-right: 1px solid #6cb150 /*#4bb0db*/;
 }
 .sf-menu > li.active > a {
